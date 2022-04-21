@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    background-color: #096661;
+    border-radius: 12px;
+}
+main a{
+    font-size: 38px;
+    color: brown;
+}
+main ol{
+    font-size: 32px;
+    color: #bb17bb;
+}
+
+main li, main li a{
+    font-size: 20px;
+    color: #ff049f;
+    font-weight: bolder;
+    transition-duration: 1.2s, 0.5s;
+}
+main li:hover{
+    transform: scale(1.03);
+}
+main ul{
+    font-size: 24px;
+    font-weight: 500;
+}
