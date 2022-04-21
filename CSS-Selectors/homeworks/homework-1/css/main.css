@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+main > a{
+    font-size: 32px;
+    color: black;
+    font-weight: bolder;
+}
+main ul{
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+}
+li img{
+    height: 200px;
+}
+li a{
+    font-size: 22px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: darkred;
+}
+li a:hover{
+    font-size: 25px;
+    transition-duration: 1s;
+    color: orangered;
+    background-color:darksalmon;
+    border: 1px solid darkred;
+}

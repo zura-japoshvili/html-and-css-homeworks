@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+main a{
+    font-size: 32px;
+}
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li a img{
+    height: 200px;
+    transition-duration: 1s, 0.4s;
+}
+li a img:hover{
+    transform: scale(1.2) translateY(-15px);
+}
