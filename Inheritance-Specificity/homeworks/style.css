@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: inline;
+}
+main button{
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid gray;
+    width: 112px;
+    height: 47px;
+}
+button:not(:last-child){
+    margin-right: 10px;
+}
+button:nth-child(1){
+    background-color: #1890FF;
+    color: #fff;
+    border: none;
+}
+button:nth-child(2), button:nth-child(3){
+    background-color: #fff;
+}
+button:nth-child(3){
+    border-style: dashed;
+}
+button:nth-child(4){
+    color: #F5212D;
+}
