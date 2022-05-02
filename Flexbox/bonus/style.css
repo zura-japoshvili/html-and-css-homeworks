@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.part-1{
+    width: 35%;
+    height: 30%;
+    display: flex;
+    border: solid;
+    border-width: 0 4px 4px 0;
+}
+.p1-c1{
+    height: 100%;
+    width: 25%;
+}
+.p1-c1 div:nth-child(1){
+    height: 60%;
+    border-right: 4px solid;
+}
+.p1-c1 div:nth-child(2){
+    height: 40%;
+    border: solid;
+    border-width: 2px 4px 0 0;
+    background-color: #FEEDA8;
+}
+.p1-c2{
+    height: 100%;
+    width: 50%;
+}
+.p1-c2 div:nth-child(1){
+    height: 20%;
+    background-color: #FEEDA8;
+    border-bottom: 2px solid;
+}
+.p1-c2 div:nth-child(2){
+    height: 40%;
+    background-color: #FEEDA8;
+    border-bottom: 2px solid;
+}
+.p1-c2 div:nth-child(3){
+    height: 40%;
+    background-color: #FEEDA8;
+}
+.p1-c3{
+    height: 100%;
+    width: 25%;
+    border-left: 2px solid;
+}
+.p1-c3 div:nth-child(1){
+    height: 20%;
+    background-color: #FEEDA8;
+    border-bottom: 2px solid;
+}
+.p1-c3 div:nth-child(2){
+    height: 80%;
+    background-color: black;
+}
+.part-2{
+    width: 25%;
+    height: 30%;
+    border: solid;
+    border-width: 0 2px 4px 0;
+}
+.part-2 div:nth-child(1){
+    height: 20%;
+}
+.part-2 div:nth-child(2){
+    height: 80%;
+    border-top: 2px solid;
+    background-color: #86AADE;
+}
+.part-3{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    border-bottom: 2px solid;
+}
+.p3-c1{
+    width: 60%;
+    height: 100%;
+    border-right: 2px solid;
+}
+.p3-top{
+    height: 60%;
+    border-bottom: 2px solid;
+    display: flex;
+}
+.p3-top-l{
+    width: 75%;
+    height: 100%;
+    border-right: 2px solid;
+}
+.p3-top-l div:nth-child(1){
+    height: 80%;
+    background-color: #FEEDA8;
+    border-bottom: 2px solid;
+}
+.p3-top-l div:nth-child(2){
+    height: 20%;
+    background-color: #FDCE06;
+}
+.p3-bottom{
+    height: 40%;
+    background-color: #FEEDA8;
+}
+.p3-c2{
+    height: 100%;
+    width: 25%;
+    background-color: #C73737;
+    border-right: 4px solid;
+}
+.p3-c3{
+    height: 100%;
+    width: 15%;
+    background-color: #FEEDA8;
+}
+
+
