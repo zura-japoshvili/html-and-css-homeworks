@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 1173px;
+    margin-top: 147.7px;
+}
+.first-title{
+    font-size: 30px;
+    margin-bottom: 14.4px;
+}
+main p {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 23px;
+
+}
+.first-p{
+    margin-bottom: 20px;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+.lists ul{
+    list-style: none;
+    width: 372px;
+}
+.lists ul li{
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 30px;
+}
+.black-square li::before{
+    content: url('./assets/black-square.png');
+    margin-right: 20px;
+}
+.white-square li::before{
+    content: "";
+    background-image: url("./assets/white-squeare.png");
+    display: inline-block;
+    width: 13.8px;
+    height: 13.8px;
+    margin-right: 20px;
+    border: 1px solid;
+}
+.second-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.second-p{
+    margin-bottom: 5px;
+}
+.code-box{
+    background-color: #ECF0F1;
+    padding: 22px 0 26px 31px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.code-box p{
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Arial;
+}
+.code-box p span{
+    margin-left: 15px;
+}
+.third-p{
+    margin-bottom: 25px;
+}
+.img-and-p{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.img{
+    width: 370px;
+    height: 400px;
+    background-color: #ECF0F1;
+}
+.img-and-p .box{
+    width: 768px;
+}
+.img-and-p .box p:not(:last-child){
+    margin-bottom: 20px;
+}
+.tags{
+    height: 50px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.tags div{
+    height: 100%;
+    width: 50px;
+    background-color: #34495E;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.tags p:not(:last-child){
+    margin-right: 7px;
+}
+.tags a{
+    margin-right: 7px;
+    color: #1ABC9C;
+}
+.author-box{
+    background-color: #ECF0F1;
+    padding: 28px 31px;
+    display: flex;
+}
+.author-img{
+    height: 100px;
+    width: 100px;
+    background-color: #A1B1BC;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 8px #000000;
+    margin-right: 30px;
+}
+.name-desc{
+    width: 979px;
+}
+.name-desc h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.name-desc h5{
+    color: #A1B1BC;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
