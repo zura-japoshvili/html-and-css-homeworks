@@ -1,0 +1,98 @@
+@import "./reset";
+@import "./palette";
+@import "./shared";
+
+main{
+    margin-left: 25px;
+    h1{
+        font-size: 30px;
+        font-family: $primary-font;
+        font-weight: 300;
+        margin-bottom: 50px;
+        color: $primary-title;
+    }
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1171px;
+        > div{
+            border: 1px solid #E2E6E7;
+            border-radius: 10px;
+            display: flex;
+            padding: $short-padding;
+            position: relative;
+            .exit-icon{
+                position: absolute;
+                top: 18px;
+                right: 20px;
+                color: #CFD2D3;
+                font-size: 14px;
+            }
+            .left{
+                width: fit-content;
+                i{
+                    border-radius: 50%;
+                    font-size: 24px;
+                    margin-right: 30px;
+                }
+                .fa-exclamation{
+                    background-color: #FFC12D;
+                    border: 7px solid #F9B718;
+                    color: #A47503;
+                    padding: 12px 20.5px;
+                }
+                .fa-check{
+                    background-color: #97E411;
+                    border: 7px solid #7BC200;
+                    color: #558502;
+                    padding: 13px;
+                }
+                .fa-xmark{
+                    background-color: #FD7761;
+                    border: 7px solid #F55C43;
+                    color: #D52E13;
+                    padding: 12px 17px;
+                }
+                .fa-bolt-lightning{
+                    background-color: #6FD9FC;
+                    border: 7px solid #47B4F6;
+                    color: #0787D4;
+                    padding: 16.5px 18.5px;
+                    font-size: 16px;
+                }
+                .fa-info{
+                    background-color: #A39CDC;
+                    border: 7px solid #8781BD;
+                    color: #5B568E;
+                    padding: 12px 20px;
+                }
+            }
+            .right{
+                h3{
+                    font-size: 14px;
+                    font-family: $primary-font;
+                    font-weight: 900;
+                    letter-spacing: 1.4px;
+                    color: $primary-title;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: $primary-p;
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-family: $primary-font
+                }
+            }
+        }
+        .warn-short{
+            margin-bottom: 30px;
+            .right{
+                width: 357px;
+            }
+        }
+        .warn-wide{
+            padding: $wide-padding;
+        }
+    }
+}
