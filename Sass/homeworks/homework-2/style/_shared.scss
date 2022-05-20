@@ -13,7 +13,6 @@ main{
         justify-content: space-between;
         width: 1171px;
         > div{
-            border: 1px solid #E2E6E7;
             border-radius: 10px;
             display: flex;
             padding: $short-padding;
@@ -33,35 +32,25 @@ main{
                     margin-right: 30px;
                 }
                 .fa-exclamation{
-                    background-color: #FFC12D;
-                    border: 7px solid #F9B718;
-                    color: #A47503;
+                    border: 7px solid #C89210;
                     padding: 12px 20.5px;
                 }
                 .fa-check{
-                    background-color: #97E411;
                     border: 7px solid #7BC200;
-                    color: #558502;
                     padding: 13px;
                 }
                 .fa-xmark{
-                    background-color: #FD7761;
                     border: 7px solid #F55C43;
-                    color: #D52E13;
                     padding: 12px 17px;
                 }
                 .fa-bolt-lightning{
-                    background-color: #6FD9FC;
                     border: 7px solid #47B4F6;
-                    color: #0787D4;
                     padding: 16.5px 18.5px;
                     font-size: 16px;
                 }
                 .fa-info{
-                    background-color: #A39CDC;
                     border: 7px solid #8781BD;
-                    color: #5B568E;
-                    padding: 12px 20px;
+                    padding: 13px 20px;
                 }
             }
             .right{
@@ -82,13 +71,43 @@ main{
             }
         }
         .warn-short{
-            margin-bottom: 30px;
+            margin-bottom: 32px;
             .right{
                 width: 357px;
             }
         }
         .warn-wide{
             padding: $wide-padding;
+        }
+        .exclamation{
+            background-color: $exclamation-bg;
+            i{
+                color: $exclamation-icons;
+            }
+        }
+        .check{
+            background-color: $check-bg;
+            i{
+                color: $check-icons;
+            }
+        }
+        .xmark{
+            background-color: $xmark-bg;
+            i{
+                color: $xmark-icons;
+            }
+        }
+        .lightning{
+            background-color: $lightning-bg;
+            i{
+                color: $lightning-icons;
+            }
+        }
+        .info{
+            background-color: $info-bg;
+            i{
+                color: $info-icons;
+            }
         }
     }
 }
